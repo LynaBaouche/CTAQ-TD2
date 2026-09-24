@@ -1,0 +1,7 @@
+Réponses Question 2 :
+JUnit : outil framework de référence pour les tests unitaires en Java. Il permet de créer et d'exécuter des tests automatisés pour vérifier le bon fonctionnement du code. JUnit fournit des annotations pour définir les méthodes de test, ainsi que des assertions pour valider les résultats attendus.
+Hamcrest : Bibliothèque de matchers pour les assertions lisibles, en utilisant des assertions qui décrivent une propriété attendue d'un objet, plutôt que de simplement vérifier l'égalité. Cela rend les tests plus expressifs et compréhensibles.
+Mockito : Framework de moquage pour Java qui permet de créer des objets simulés (mocks) pour tester des composants isolés. Mockito facilite la création de tests unitaires en permettant de simuler le comportement des dépendances et de vérifier les interactions avec elles.
+Jacoco : Outil de couverture de code pour Java qui mesure le pourcentage de code exécuté lors des tests. Il permet d'identifier les parties du code qui ne sont pas couvertes par les tests, aidant ainsi à améliorer la qualité et la fiabilité du code.
+Lequel n'est pas une bibliothèque de test à proprement parler ? --> Réponse : Jacoco.
+
