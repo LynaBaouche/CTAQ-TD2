@@ -17,3 +17,5 @@ C'est de la duplication entre test et code. Le code n'a rien « compris » : il 
 
 Règle de Kent Beck : quand tu vois de la duplication de données entre le test et le code, tu dois généraliser. Comme le test actuel ne l'y oblige pas, il faut le renforcer. C'est l'objet de la Q6.
 
+Question 7 :
+Oui. org.acme:lib-a:1.0.0 et org.other:lib-c:3.0.0 sont deux chaînes bien formées (trois composants non vides séparés par :). La spécification les traite de la même façon : elles produisent un Gav avec les trois champs. Un seul représentant suffirait à couvrir cette classe.
