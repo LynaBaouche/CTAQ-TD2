@@ -2,6 +2,7 @@ package org.example.minibuild;
 
 public record Gav(String group, String artifact, String version) {
     public static Gav parse(String coordinate) {
-        return new Gav("org.acme", "", "");     // FAKEIT : une valeur constante
+        String[] parts = coordinate.split(":");
+        return new Gav(parts[0], parts[1], parts[2]);
     }
 }
