@@ -23,7 +23,7 @@ class InMemoryStorageTest {
     @BeforeEach
     void init() {
         storage = new InMemoryStorage();   // fixture reconstruite avant chaque test
-    }
+    } 
 
     @Test
     void getRenvoieLArtefactRangeSousSaCoordonnee() {
