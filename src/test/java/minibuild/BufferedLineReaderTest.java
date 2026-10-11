@@ -1,10 +1,13 @@
-package orminibuild;
+package minibuild;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 import java.io.IOException;
 import java.io.StringReader;
+
+import org.example.minibuild.BufferedLineReader;
+import org.example.minibuild.ILineReader;
 import org.junit.jupiter.api.Test;
 
 class BufferedLineReaderTest {
